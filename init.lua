@@ -1,6 +1,6 @@
 --Made by AlcesAlces and Elefant, thanks you two!
 --based on the advtrains_train_japan code by orwell
-local S = attrans
+local S = core.get_translator(core.get_current_modname())
 
 advtrains.register_wagon("class_810", {
 	mesh="class_810.b3d",
