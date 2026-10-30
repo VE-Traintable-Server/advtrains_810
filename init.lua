@@ -1,6 +1,5 @@
 --Made by AlcesAlces and Elefant, thanks you two!
 --based on the advtrains_train_japan code by orwell
-local S = core.get_translator(core.get_current_modname())
 
 advtrains.register_wagon("class_810", {
 	mesh="class_810.b3d",
@@ -9,7 +8,7 @@ advtrains.register_wagon("class_810", {
 	max_speed=15,
 	seats = {
 		{
-			name=S("Driver stand"),
+			name="Driver stand",
 			attach_offset={x=0, y=1, z=27},
 			view_offset={x=0, y=0, z=25},
 			group="dstand",
@@ -70,4 +69,4 @@ advtrains.register_wagon("class_810", {
 	collisionbox = {-1.0,-0.5,-2.5, 1.0,2.5,2.5},
 	drops={"default:steelblock 4"},
 	horn_sound = "810_horn",
-}, S("CS Class 810"), "class_810_inv.png")
+}, "CS Class 810", "class_810_inv.png")
